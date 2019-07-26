@@ -1,0 +1,74 @@
+export interface Movie {
+  id: number;
+  name: string;
+  genre: string;
+  image: string;
+  releaseYear: string;
+}
+
+export const movies: Movie[] = [
+  {
+    id: 1,
+    name: "Pokémon Detective Pikachu",
+    genre: "Comedy",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNDU4Mzc3NzE5NV5BMl5BanBnXkFtZTgwMzE1NzI1NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    releaseYear: "2019"
+  },
+  {
+    id: 2,
+    name: "WALL·E",
+    genre: "Animation",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    releaseYear: "2008"
+  },
+  {
+    id: 3,
+    name: "Zombieland: Double Tap",
+    genre: "Comedy, Horror",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BZjhlZWU5NTAtMmZmOS00MDk1LWE2ZDEtZGNiNGZiNDJmNDk1XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    releaseYear: "2019"
+  },
+  {
+    id: 4,
+    name: "Tomorrow Never Dies",
+    genre: "Action, Adventure, Thriller",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMTM1MTk2ODQxNV5BMl5BanBnXkFtZTcwOTY5MDg0NA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+    releaseYear: "1997"
+  },
+  {
+    id: 5,
+    name: "Fight Club",
+    genre: "Drama",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+    releaseYear: "1999"
+  },
+  {
+    id: 6,
+    name: "The Matrix",
+    genre: "Action, Sci-Fi",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+    releaseYear: "1999"
+  },
+  {
+    id: 7,
+    name: "Interstellar",
+    genre: "Adventure, Drama, Sci-Fi ",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg",
+    releaseYear: "2014"
+  },
+  {
+    id: 8,
+    name: "Edge of Tomorrow",
+    genre: "Action, Sci-Fi",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    releaseYear: "2014"
+  }
+];
