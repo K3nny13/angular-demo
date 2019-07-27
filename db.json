@@ -55,6 +55,13 @@
       "genre": "Action, Sci-Fi",
       "image": "https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
       "releaseYear": "2014"
+    },
+    {
+      "name": "Deadpool",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+      "genre": "Action, Comedy",
+      "releaseYear": "2016",
+      "id": 9
     }
   ]
 }

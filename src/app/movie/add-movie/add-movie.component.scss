@@ -1,0 +1,26 @@
+form {
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+input {
+  margin: 20px 10px;
+  width: 90%;
+  border: 0px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  background: #f27121;
+  font-size: 18px;
+  color: white;
+  margin-right: 14px;
+  height: 40px;
+  width: 100px;
+  box-shadow: 2px 2px 0px #555;
+  border-radius: 10px;
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
